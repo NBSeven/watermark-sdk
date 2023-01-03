@@ -1,0 +1,22 @@
+{
+  "name": "watermark-sdk",
+  "version": "1.0.0",
+  "description": "简单版本的水印，可自定义多个属性",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "author": "wangzhongxiang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-external-helpers": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}

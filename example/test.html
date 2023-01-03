@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="watermark"></canvas>
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+    <script src="./../dist/bundle.js"></script>
+    <script>
+        let mark = new watermark({
+            id: 'watermark',
+            text:'watermark',
+            width: 1000
+        })
+        mark.init()
+        var textEl = document.querySelector('#text')
+        textEl.value = mark.getImg()
+    </script>
+</body>
+
+</html>
